@@ -7,6 +7,10 @@
 body{
     margin: 0%;
     padding: 0%;
+    font-family: 'Open Sans', 'Areal', 'sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 /* CONTAINER */
