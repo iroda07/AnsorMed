@@ -26,8 +26,132 @@ body{
 }
 
 /*  HEADER */
+
+.site-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+
+
+
 .site-header-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/*  LOGO */
+.site-logo-link{
+    display: flex;
+    align-items: center;
+    color: #222;
+    text-decoration: none;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: 24px;
+    font-weight: 600;
+}
+
+.site-logo-link:hover{
+    color: #de2e54;
+}
+
+.site-logo-link:active{
+    opacity: 0.6;
+}
+
+
+.site-logo-img{
+    margin-right: 16px;
+    border-radius: 50px;
+}
+
+.site-footer-logo-link{
+    color: #fff;
+}
+
+.site-footer-logo-link:active{
+    color: #fff;
+}
+
+
+/* SITENAV */
+
+.sitenav{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.sitenav-list{
+    display: flex;
+    list-style: none;
+}
+
+.sitenav-item:not(:last-child){
+    margin-right: 32px; 
+} 
+
+.sitenav-item-link{
+    color: #222;
+    text-decoration: none;
+}
+
+.sitenav-item-link:hover{
+    color: #de2e54;
+}
+
+.sitenav-item-link:active{
+    opacity: 0.6;
+}
+
+
+.enrollmen-link{
+    display: inline-block;
+    background-color: #de2e54;
+    border: 2px solid #de2e54;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.enrollment-link:hover{
+    background-color:#fff;
+    color: #000;
+}
+
+.enrollment-link:active{
+    background-color: #de2e54;
+    color: #fff;
+    opacity: 0.6;
+}
+
+/* SITE-FOOTER */
+.site-footer{
+    background-color: #222;
+    padding: 24px;
+    color: #fff;
+}
+.site-footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sitenav-footer-sitenav-link .sitenav-item-link{
+    color: #fff;
+}
+
+.sitenav-footer-sitenav-link .sitenav-item-link:hover{
+    color: #de2e54;
+}
+
+.sitenav-footer-sitenav-link .sitenav-item-link:active{
+    color: #fff;
 }
