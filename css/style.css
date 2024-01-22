@@ -132,6 +132,144 @@ body{
     opacity: 0.6;
 }
 
+.enrollment--solid{
+    border: 0;
+    color: #fff;
+}
+
+.enrollment-link:active{
+    background-color: rgba(222, 46, 84, 0, 0.80);
+
+}
+
+
+.enrollment--solid:hover{
+    background-color: rgba(222, 46, 84, 0, 0.80);
+    opacity: 1;
+}
+
+/* HERO */
+.hero{
+    background-color: #0eb4c1;
+    color: #fff;
+}
+    
+
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+.hero-content{
+    width: 500px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.hero-heading{
+    font-family: "Open Sans Condensed", 'Open Sans';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.hero-text{
+    width: 440px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5px;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+.hero-img{
+    align-self: flex-end;
+}
+
+
+
+/*  INDEX SERVICES */
+.index-services{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.index-services-heading{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans Condensed", "Open Sans", Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 56px;
+}
+
+.index-services-list{
+    width: 864px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+
+.index-services-item{
+    padding: 0;
+}
+
+.index-services-item:not(:last-child){
+    margin-bottom: 80px;
+}
+
+
+.index-service{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.index-service-img{
+    margin-right: 64px;
+}
+
+.index-service-title{
+    color: #222;
+    font-family: "Open Sans Condensed", "Open Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.index-service-description{
+    color: #444;
+    font-family: "Open-sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5%;
+    margin:0
+}
+
+.index-service-action{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
 /* SITE-FOOTER */
 .site-footer{
     background-color: #222;
